@@ -10,7 +10,7 @@ public class AreaTest {
         radius = input.nextDouble();
         
         area = PI * radius * radius;
-        System.out.println("원의 면적 : " + area);
+        System.out.printf("원의 면적 : %f",area);
     }
 
 }
