@@ -1,5 +1,5 @@
 import java.util.Scanner;
- 
+
 public class QuadraticEq {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -12,7 +12,6 @@ public class QuadraticEq {
  
         System.out.print("상수 c를 입력하세요: ");
         c = input.nextFloat();
- 
         discriminer = b * b - 4 * a * c;
  
         if (discriminer > 0) {

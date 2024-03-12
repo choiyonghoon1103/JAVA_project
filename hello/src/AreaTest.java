@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class AreaTest {
-
     public static void main(String[] args) {
         double radius, area;
         final double PI = 3.141592;
